@@ -1,0 +1,7 @@
+{% extends 'index.html' %}
+{% block content %}
+  <h1>{{ model_name }}</h1>
+  <div>
+    {% for obj in data %}<p>{{ obj }}</p>{% endfor %}
+  </div>
+{% endblock content %}
